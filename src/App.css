@@ -1,0 +1,10 @@
+#subsidiaries::-webkit-scrollbar, #images-container::-webkit-scrollbar{
+    display: none;
+}
+#about{
+background: linear-gradient(-45deg, black, rgba(255, 0, 0, 0.5),black, rgba(255, 0, 0, 0.5), black);
+/* background-color: black; */
+}
+#logo{
+    letter-spacing: 0.4rem;
+}
