@@ -40,7 +40,6 @@ const subsidiaryImgContSty = "min-w-[100vw]"
             if(allNewsRef.current){
               const  windowWidth = window.innerWidth;
               const elementWidth =   allNewsRef.current.scrollWidth
-              console.log(elementWidth)
                 let currentScroll = 0;
                 let nextScrollWidth = currentScroll+windowWidth;
                animation  = gsap.context(()=>{

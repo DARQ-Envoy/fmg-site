@@ -3,17 +3,20 @@ import { Header } from './sections/home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About } from './sections/about';
 
-function App() {
 
+
+const BASE = "fmg-site"
+function App() {
   return (
     <BrowserRouter>
     <Routes>
-            <Route path='/' element={<Header/>}/>
-            <Route path='/about' element={<About/>}/>
+            <Route path={`/${BASE}/`} element={<Header/>}/>
+            <Route path={`/${BASE}/about`} element={<About/>}/>
     </Routes>
 
     </BrowserRouter>
   )
 }
 
-export default App
+export default App;
+export {BASE};
