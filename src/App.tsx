@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-            <Route path={`/${BASE}/`} element={<Header/>}/>
-            <Route path={`/${BASE}/about`} element={<About/>}/>
+            <Route path={`${BASE}/`} element={<Header/>}/>
+            <Route path={`${BASE}/about`} element={<About/>}/>
     </Routes>
 
     </BrowserRouter>
