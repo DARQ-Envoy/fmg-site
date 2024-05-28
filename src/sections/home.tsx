@@ -5,7 +5,6 @@ import music from "../assets/images/header-images/music.jpg";
 import naira from "../assets/images/header-images/naira.webp";
 import protests from "../assets/images/header-images/protests.jpg";
 import schoolGirl from "../assets/images/header-images/school-girl.jpg";
-import {BASE} from "../App"
 
 
 import gsap from "gsap"

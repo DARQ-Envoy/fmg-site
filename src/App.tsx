@@ -1,20 +1,20 @@
 import './App.css'
 import { Header } from './sections/home'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { About } from './sections/about';
-import {BASE} from "../vite.config"
 
+const BASE = "/fmg-site/";
 
 
 function App() {
   return (
-    <BrowserRouter basename={BASE}>
+    <HashRouter basename={BASE}>
     <Routes>
             <Route path={`/`} element={<Header/>}/>
             <Route path={`/about`} element={<About/>}/>
     </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
